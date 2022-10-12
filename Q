@@ -1,0 +1,46 @@
+[33mcommit f7f425d9b14776632f53afc31009e0f498215d80[m[33m ([m[1;36mHEAD -> [m[1;32mlogin[m[33m, [m[1;31morigin/login[m[33m)[m
+Author: Guillermo Morton <guillermo.morton@possumus.tech>
+Date:   Thu Sep 15 18:04:50 2022 -0300
+
+    Se agrego el middleware de validacion al resto de rutas
+
+[33mcommit dff4b652afaacb232b0098c1d6246b691927d94c[m
+Author: Guillermo Morton <guillermo.morton@possumus.tech>
+Date:   Thu Sep 15 16:34:52 2022 -0300
+
+    Se agregó un archivo de configuraciones, se agrego la entidad user, con sus controladores (POST, PATCH, DELETE,GET). Se creó el sistema de login, creacion de token JTW y autenticacion de ese token al hacer peticiones
+
+[33mcommit a09457bd1965cc4ff5c33f9e494be5981a3c76d2[m[33m ([m[1;31morigin/develop[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: Guillermo Morton <guillermo.morton@possumus.tech>
+Date:   Thu Sep 8 16:27:02 2022 -0300
+
+    La region se carga mediante el env
+
+[33mcommit f51a0cbf1e3b38dc88e88044f53c3006f02e7d6a[m
+Author: Guillermo Morton <guillermo.morton@possumus.tech>
+Date:   Thu Sep 8 16:23:27 2022 -0300
+
+    Las credenciales de aws se cargan mediante el .env
+
+[33mcommit 4ed55a7d0ec39641a50adbd59ee085af3d1374c8[m
+Author: Santiago Felippa <santiago.felippa@possumus.tech>
+Date:   Thu Sep 8 16:07:08 2022 -0300
+
+    Dokerización
+
+[33mcommit ca0c641db3723759dca163dcc8bec61c049ccc94[m
+Author: Santiago Felippa <santiago.felippa@possumus.tech>
+Date:   Thu Sep 8 16:07:00 2022 -0300
+
+    Modificiación de gitignore para incluir archivo en env
+
+[33mcommit 3e4f6642681de233ac8a0cb8ed7934e0cecf1b5b[m
+Merge: aa2ada2 059d8e6
+Author: Guillermo Morton <guillermo.morton@possumus.tech>
+Date:   Wed Sep 7 16:37:10 2022 +0000
+
+    Merge branch 'filters' into 'develop'
+    
+    Se hizo un cambio estructural, se agregaron rutas para athena, de modo poder...
+    
+    See merge request possumus-terceros/edbp/api-builder/api-builder-backend!2
